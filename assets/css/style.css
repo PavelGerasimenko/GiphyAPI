@@ -1,0 +1,35 @@
+#header {
+	background-image: url("../images/header.jpg");
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: sans-serif;
+}
+
+body {
+	background-image: url("../images/background.jpg");
+}
+
+label {
+	font-size: 18px;
+}
+
+#country {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#countrySearch {
+	margin: 0 auto;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
