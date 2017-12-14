@@ -7,4 +7,15 @@ $(document).ready(function() {
 //Click event on button with id of "country" executes displayCountry function
 //Click event on gifs with class executes pausePlayGifs function
 //Function accesses "data-state" attribute depending on status
+
+
+function displayCountry() {
+
+	var x = $(this).data("search");
+	console.log(x);
+
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=dc6zaTOxFJmzC&limit=10";
+
+	console.log(queryURL);
+	}
 });
